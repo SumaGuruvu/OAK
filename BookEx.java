@@ -37,6 +37,7 @@ public class BookEx {
     	  }
     	  if(found)
     		  al.remove(y);
+	          break;
       }
 	
       for(book x:al)
