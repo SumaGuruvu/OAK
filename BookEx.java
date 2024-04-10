@@ -36,13 +36,12 @@ public class BookEx {
     		 y=x;
     	  }
     	  if(found)
-    		  al.remove(x);
-    	      break;
+    		  al.remove(y);
       }
 	
       for(book x:al)
       {
-    	  System.out.println(x.bid+" "+b.bname);
+    	  System.out.println(x.bid+" "+x.bname);
       }
       
 	}
